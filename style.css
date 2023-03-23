@@ -627,12 +627,10 @@
     .section2text h2 {
       padding: 0px 0px 40px 0px;
       top: 0px;
-      color: #dde9eb;
     }
 
     .section2text p {
       text-align: left;
-      color: #dde9eb;
     }
 
     .section2button {
@@ -817,12 +815,10 @@
     .block1text h3 {
       padding: 0px 0px 40px 0px;
       top: 0px;
-      color: #dde9eb;
     }
 
     .block1text p {
       text-align: left;
-      color: #dde9eb;
     }
 
     @media screen and (max-width: 990px) {
