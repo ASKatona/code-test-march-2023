@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential College</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="headerbg">
+
+            <div class="invisible">
+                <a href="#" class="logo"></a>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Why Us?
+
+                            <i class="arrow down"></i></p>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#study">Study From Home</a>
+                            <a href="#gallery1">Gallery</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Accommodation
+                            <i class="arrow down"></i></p>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#undergraduate">Undergraduate</a>
+                            <a href="#graduate">Graduate</a>
+                            <a href="#international">International</a>
+                        </div>
+                    </div>
+                    <a href="#contact">Contact Us</a>
+                    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
+
+                    <div class="search">
+                        <form class="s1">
+                            <input type="text" placeholder="Search">
+                            <button class="go" type="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sub Header -->
+    <section id="home" class="sub-header">
+        <h1>Accommodation Needs Assessment <br>for University Students</h1>
+        <div class="hero">
+            <div class="contactsform">
+                <form id="contact-form" action="#" method="post">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" required>
+
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+                <div id="message"></div>
+            </div>
+            <div class="formtext">
+                <h2></h2>
+                <p>As part of our ongoing efforts to improve the quality of university accommodation, we would like to
+                    invite you to participate in our accommodation survey. By sharing your preferences and feedback with
+                    us, you can help us better understand your needs and tailor our services to meet them.
+                    <br><br>
+
+                    This survey will take no more than 10 minutes to complete, and all responses will be kept
+                    confidential. Your input will help us improve our accommodation options, including residence halls,
+                    on-campus apartments, and off-campus housing resources. We want to ensure that all students have a
+                    safe, comfortable, and enjoyable living experience while studying at our university.
+
+                </p>
+            </div>
+        </div>
+        <div class="midtitle">
+            <h2>Stay at our University!</h2>
+        </div>
+    </section>
+    <div class="slideshow-bg">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/img/campus1.jpg" style="width:100%">
+                <div class="text">Our Campus</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/img/campus2.jpg" style="width:100%">
+                <div class="text2">The Auditoriums</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/img/campus3.jpg" style="width:100%">
+                <div class="text3">Student Accommodation</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/img/campus4.jpg" style="width:100%">
+                <div class="text4">Campus Life</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+
+    </div>
+
+    <!-- Page Content -->
+
+    <!-- First Section -->
+    <section id="about" class="cards">
+        <h2>About our University</h2>
+        <div class="sectioncontainer">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="/img/study1.jpg" alt="Thumbnail 1">
+                <h3>Peer Feedback Benefits</h3>
+                <p>This study explores the benefits of peer feedback in higher education. It investigates the impact of
+                    peer evaluation on student learning outcomes, student engagement and satisfaction, and teacher
+                    workload. The study also examines the potential challenges of implementing peer feedback, such as
+                    bias and fairness. The findings of the study can inform the development of effective peer feedback
+                    strategies</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="/img/study2.jpg" alt="Thumbnail 2">
+                <h3>Inclusive Classroom Strategies</h3>
+                <p>This study focuses on strategies to promote diversity and equity in the classroom. It analyzes the
+                    impact of inclusive classroom strategies on student learning outcomes, student engagement and
+                    satisfaction, and teacher workload. The study also explores the potential challenges of implementing
+                    inclusive classroom strategies, such as resistance to change and lack of resources. The findings of
+                    the study can inform the development of effective inclusive classroom practices.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="/img/study3.jpg" alt="Thumbnail 3">
+                <h3>Online Learning Effectiveness</h3>
+                <p> This study examines the effectiveness of online learning in higher education. It analyzes the impact
+                    of remote education on student learning outcomes, student engagement and satisfaction, and teacher
+                    workload. The study also explores the potential challenges of distance learning, such as technology
+                    barriers, lack of social interaction, and isolation. The findings of the study can inform the
+                    development of effective online learning programs.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Second Section -->
+    <section id="study" class="section2bg">
+        <div class="section2">
+            <img src="/img/section2study.jpg" alt="Image">
+            <div class="section2text">
+                <h2>Study From Home</h2>
+                <p>In response to the COVID-19 pandemic, many universities around the world have transitioned to remote
+                    learning, allowing students to study from home. <br><br>This new learning format offers a flexible
+                    and
+                    convenient option for students who prefer a more personalized study schedule or who are unable to
+                    attend
+                    traditional in-person classes.<br><br> With the advancement of technology, students can access
+                    virtual
+                    classrooms, course materials, and even collaborate with classmates from anywhere, making education
+                    more
+                    accessible than ever before.<br><br> Studying from home requires self-discipline and motivation, but
+                    the
+                    benefits of this learning format can help students achieve their academic goals while balancing
+                    other
+                    commitments in their personal lives.</p>
+                <button class="section2button"><span>Find out more </span></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Third Section -->
+    <section id="gallery1" class="thumbnail-gallery">
+        <h2>Gallery</h2>
+        <div class="gallerycontainer">
+            <div class="gallery">
+                <div class="imgcontainer">
+                    <img src="/img/gallery1.jpg" alt="Image 1">
+                    <div class="overlay">Books in our Library</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery2.jpg" alt="Image 1">
+                    <div class="overlay">Graduation</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery3.jpg" alt="Image 1">
+                    <div class="overlay">Study in peace</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery4.jpg" alt="Image 1">
+                    <div class="overlay">Our Campus</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery5.jpg" alt="Image 1">
+                    <div class="overlay">Classrooms</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery6.jpg" alt="Image 1">
+                    <div class="overlay">Huge Libraries</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery7.jpg" alt="Image 1">
+                    <div class="overlay">Massive Auditoriums</div>
+                </div>
+                <div class="imgcontainer">
+                    <img src="/img/gallery8.jpg" alt="Image 1">
+                    <div class="overlay">Explore the Campus</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Fourth Section -->
+    <section id="undergraduate" class="content-block">
+        <div  class="block1">
+            <div class="block1text">
+                <h3>Navigating Undergrad: Tips and Tricks for Success</h3>
+                <p>As an undergraduate student, you're embarking on an exciting journey full of new experiences and
+                    challenges.
+                    <br><br>
+                    From navigating the college application process to balancing classes, extracurriculars, and social
+                    life, it can be overwhelming at times.
+                    <br><br>
+                    However, with the right tools and mindset, you can thrive in your undergraduate career.
+                    <br><br>
+                    This section provides tips and tricks for success, from time management strategies to study tips to
+                    advice on building strong relationships with professors and peers.
+                </p>
+            </div>
+            <img src="/img/content1.jpg
+        " alt="">
+        </div>
+        <div id="graduate" class="block2">
+            <img src="/img/content2.jpg
+            " alt="">
+            <div class="block1text">
+                <h3>Maximizing Your Graduate Experience: Advice for Thriving in Grad School</h3>
+                <p>Graduate school is an opportunity to deepen your knowledge in a specific field, explore research
+                    opportunities, and advance your career prospects.
+                    <br><br>
+                    However, it also comes with its own set of unique challenges, such as navigating academic
+                    expectations, building relationships with advisors and peers, and balancing coursework and research.
+                    <br><br>
+                    This section provides advice on how to maximize your graduate experience, from effective networking
+                    to staying organized to finding work-life balance.
+                </p>
+            </div>
+
+        </div>
+        <div id="international" class="block1">
+            <div class="block1text">
+                <h3>Navigating a New Country: A Guide for International Students</h3>
+                <p>
+                    Studying in a new country can be an incredibly rewarding experience, but it also comes with its own
+                    set of challenges. <br><br>
+
+                    From adapting to a new culture to navigating visa requirements to building a social support system,
+                    international students face a unique set of obstacles.
+                    <br><br>
+                    This section provides advice and resources
+                    for navigating a new country as an international student, from tips on finding housing to advice on
+                    building relationships with locals to strategies for coping with culture shock.</p>
+            </div>
+            <img src="/img/content3.jpg
+        " alt="">
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footcontainer">
+            <div class="footcolumn">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footcolumn">
+                <h4>Accommodation</h4>
+                <ul>
+                    <li><a href="#undergraduate">Undergraduate</a></li>
+                    <li><a href="#graduate">Graduate</a></li>
+                    <li><a href="#international">International</a></li>
+                </ul>
+            </div>
+            <div class="footcolumn">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="/img/logo2.png" alt="Logo">
+            </div>
+
+        </div>
+        <p>Copyright © 2023 Built with Acora</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
