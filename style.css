@@ -450,7 +450,7 @@
       width: auto;
       margin-top: -22px;
       padding: 16px;
-      color: white;
+      color: #103953;
       font-weight: bold;
       font-size: 18px;
       transition: 0.6s ease;
@@ -912,7 +912,6 @@
     }
 
     footer p {
-      font-size: small;
       text-align: center;
       margin: 25px;
       color: #dde9eb;
